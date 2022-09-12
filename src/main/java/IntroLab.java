@@ -33,13 +33,12 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
-     *
-     * As a reference, we've provided the sample method exampleStudent.
-     * Make sure you document your method properly!
+    /**
+     * Returns a string message for a student, Eshwara Chock
      */
+    public static String chockal8() {
+        return printLabMessage("Hi", "Eshwara", false, "Hello there!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
