@@ -40,6 +40,10 @@ public class IntroLab {
         return printLabMessage("Hi", "Eshwara", false, "Hello there!");
     }
 
+    public static String rongDian() {
+        return printLabMessage("Hi!!", "Dian", true, "The end.");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -61,6 +65,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+        System.out.println(rongDian());
+        System.out.println(chockal8());
         System.out.println(chenri15());
 
     }
