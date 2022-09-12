@@ -33,13 +33,12 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
-     *
-     * As a reference, we've provided the sample method exampleStudent.
-     * Make sure you document your method properly!
+    /**
+     * Returns a string message for a student, Eshwara Chock
      */
+    public static String chockal8() {
+        return printLabMessage("Hi", "Eshwara", false, "Hello there!");
+    }
 
     public static String rongDian() {
         return printLabMessage("Hi!!", "Dian", true, "The end.");
@@ -53,7 +52,10 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
-
+    public static String chenri15() {
+        return printLabMessage("\uD83D\uDC4B\uD83D\uDE0A", "Ricky Chen", false,
+                "Welcome to CSC207!");
+    }
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
@@ -63,8 +65,10 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-        System.out.println(rongDian());
 
+        System.out.println(rongDian());
+        System.out.println(chockal8());
+        System.out.println(chenri15());
 
     }
 
